@@ -1,5 +1,5 @@
 // import { NavLink, useLocation } from "react-router-dom";
-// import styles from "./Header.module.css";
+import css from "./Header.module.css";
 
 // import PrivateContentArea from "../privateContentArea/PrivateContentArea";
 
@@ -13,51 +13,53 @@ export const Header = () => {
   //     location.pathname === "/profile" ||
   //     location.pathname.includes("profile") ||
   //     location.pathname.includes("recipe-details");
-  // return (
-  //     <header
-  //         className={`${styles.header} ${isWhiteHeader ? styles.whiteTheme : ""}`}
-  //     >
-  //         <div className={styles.logoWrapper}>
-  //             <Logo/>
-  //         </div>
-  //         {!isMobile && (
-  //             <nav className={styles.nav}>
-  //                 <ul>
-  //                     <li className={styles.itemLink}>
-  //                         <NavLink
-  //                             to="/"
-  //                             className={({isActive}) =>
-  //                                 `${styles.link} ${isActive ? styles.active : ""} ${
-  //                                     isWhiteHeader ? styles.white : ""
-  //                                 }`
-  //                             }
-  //                         >
-  //                             HOME
-  //                         </NavLink>
-  //                     </li>
-  //                     <li className={styles.itemLink}>
-  //                         <PrivateContentArea>
-  //                             <NavLink
-  //                                 to="/add-recipe"
-  //                                 className={({isActive}) =>
-  //                                     `${styles.link} ${isActive ? styles.active : ""} ${
-  //                                         isWhiteHeader ? styles.white : ""
-  //                                     }`
-  //                                 }
-  //                             >
-  //                                 ADD RECIPE
-  //                             </NavLink>
-  //                         </PrivateContentArea>
-  //                     </li>
-  //                 </ul>
-  //             </nav>
-  //         )}
-  //         <div className={styles.userbarWrapper}>
-  //             {isAuthenticated ? <UserBar/> : <SignToggle/>}
-  //             {isMobile && isAuthenticated && (
-  //                 <BurgerMenu isWhiteTheme={isWhiteHeader}/>
-  //             )}
-  //         </div>
-  // </header>
-  // );
+  return (
+    <header className={css.header}>
+      <p>V-Click</p>
+      <p>AdminPanel</p>
+    </header>
+    //         className={`${styles.header} ${isWhiteHeader ? styles.whiteTheme : ""}`}
+    //     >
+    //         <div className={styles.logoWrapper}>
+    //             <Logo/>
+    //         </div>
+    //         {!isMobile && (
+    //             <nav className={styles.nav}>
+    //                 <ul>
+    //                     <li className={styles.itemLink}>
+    //                         <NavLink
+    //                             to="/"
+    //                             className={({isActive}) =>
+    //                                 `${styles.link} ${isActive ? styles.active : ""} ${
+    //                                     isWhiteHeader ? styles.white : ""
+    //                                 }`
+    //                             }
+    //                         >
+    //                             HOME
+    //                         </NavLink>
+    //                     </li>
+    //                     <li className={styles.itemLink}>
+    //                         <PrivateContentArea>
+    //                             <NavLink
+    //                                 to="/add-recipe"
+    //                                 className={({isActive}) =>
+    //                                     `${styles.link} ${isActive ? styles.active : ""} ${
+    //                                         isWhiteHeader ? styles.white : ""
+    //                                     }`
+    //                                 }
+    //                             >
+    //                                 ADD RECIPE
+    //                             </NavLink>
+    //                         </PrivateContentArea>
+    //                     </li>
+    //                 </ul>
+    //             </nav>
+    //         )}
+    //         <div className={styles.userbarWrapper}>
+    //             {isAuthenticated ? <UserBar/> : <SignToggle/>}
+    //             {isMobile && isAuthenticated && (
+    //                 <BurgerMenu isWhiteTheme={isWhiteHeader}/>
+    //             )}
+    //         </div>
+  );
 };

@@ -51,7 +51,7 @@ const AuthPage = ({ onClose }) => {
         <input
           name="email"
           type="text"
-          placeholder="Email*"
+          placeholder="Email"
           {...register("email")}
           error={errors.email?.message}
           required
