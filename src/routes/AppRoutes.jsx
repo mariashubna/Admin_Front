@@ -4,6 +4,7 @@ import NotFoundPage from "@pages/not-found/NotFoundPage";
 import { Layout } from "@components/layout/Layout";
 import PrivateRoute from "@components/PrivateRoute";
 import AuthPage from "../pages/authPage/AuthPage";
+import UsersPage from "../pages/users/UsersPage";
 
 export const AppRoutes = () => {
   return (
@@ -13,8 +14,9 @@ export const AppRoutes = () => {
         {/* <Route element={<PrivateRoute />}>
           <Route path="/" element={<HomePage />} />
         </Route> */}
+        <Route path="/users" element={<UsersPage />} />
+        <Route path="*" element={<NotFoundPage />} />{" "}
       </Route>
-      <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
 };
