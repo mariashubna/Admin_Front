@@ -5,6 +5,7 @@ import { Layout } from "@components/layout/Layout";
 import PrivateRoute from "@components/PrivateRoute";
 import AuthPage from "../pages/authPage/AuthPage";
 import UsersPage from "../pages/users/UsersPage";
+import DashboardPage from "../pages/dashboard/DashboardPage";
 
 export const AppRoutes = () => {
   return (
@@ -14,8 +15,9 @@ export const AppRoutes = () => {
         {/* <Route element={<PrivateRoute />}>
           <Route path="/" element={<HomePage />} />
         </Route> */}
+        <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/users" element={<UsersPage />} />
-        <Route path="*" element={<NotFoundPage />} />{" "}
+        <Route path="*" element={<NotFoundPage />} />
       </Route>
     </Routes>
   );

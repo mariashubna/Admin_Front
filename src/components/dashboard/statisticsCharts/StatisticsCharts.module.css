@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* два графика рядом */
+  gap: 20px;
+}
+
+.container > div {
+  background-color: #1f2937;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.title {
+  color: #f3f4f6;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.chart {
+  background-color: #111827;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 600px; /* ограничение, чтобы чарты не разъезжались */
+  margin: 0 auto; /* выравнивание по центру */
+}

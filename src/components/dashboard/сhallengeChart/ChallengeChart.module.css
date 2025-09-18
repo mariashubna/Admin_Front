@@ -1,0 +1,16 @@
+.chartContainer {
+  width: 100%;
+  height: 300px;
+}
+.chartWrapper {
+  background-color: #1f2937;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.chartTitle {
+  color: #f3f4f6;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}

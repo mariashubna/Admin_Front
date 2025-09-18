@@ -1,0 +1,31 @@
+.container {
+  padding: 20px;
+  width: 100%;
+  max-height: 84vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.title {
+  margin-bottom: 20px;
+  color: #1f2937;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.wrap {
+  display: grid;
+  grid-template-columns: 60% 1fr;
+  gap: 20px;
+  align-items: start;
+  margin-bottom: 20px;
+}
