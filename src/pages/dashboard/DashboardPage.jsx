@@ -1,8 +1,8 @@
-import DashboardList from "../../components/dashboard/dashboardList/DashboardList";
-import RecentActivity from "../../components/dashboard/recentActivity/RecentActivity";
-import StatisticsCharts from "../../components/dashboard/statisticsCharts/StatisticsCharts";
-import UsersList from "../../components/dashboard/usersList/UsersList";
-import ChallengeChart from "../../components/dashboard/сhallengeChart/ChallengeChart";
+import DashboardList from "../../components/dashboard/dashboardList/DashboardList.jsx";
+import RecentActivity from "../../components/dashboard/recentActivity/RecentActivity.jsx";
+import StatisticsCharts from "../../components/dashboard/statisticsCharts/StatisticsCharts.jsx";
+import UsersList from "../../components/dashboard/usersList/UsersList.jsx";
+import ChallengeChart from "../../components/dashboard/сhallengeChart/ChallengeChart.jsx";
 import styles from "./DashboardPage.module.css";
 
 const stats = {

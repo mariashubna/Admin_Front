@@ -1,7 +1,7 @@
-import UserChallenges from "../userChallenges/UserChallenges";
-import UserFriends from "../userFriends/UserFriends";
-import UserInfo from "../userInfo/UserInfo";
-import UserProgress from "../userProgress/UserProgress";
+import UserChallenges from "../userChallenges/UserChallenges.jsx";
+import UserFriends from "../userFriends/UserFriends.jsx";
+import UserInfo from "../userInfo/UserInfo.jsx";
+import UserProgress from "../userProgress/UserProgress.jsx";
 import styles from "./UserProfileCard.module.css";
 
 const UserProfileCard = ({ user }) => {

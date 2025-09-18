@@ -1,4 +1,4 @@
-import ActivityItem from "../activityItem/ActivityItem";
+import ActivityItem from "../activityItem/ActivityItem.jsx";
 import styles from "./RecentActivity.module.css";
 
 const RecentActivity = () => {

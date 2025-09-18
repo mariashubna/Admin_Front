@@ -1,6 +1,6 @@
-import UserFilters from "../../components/users/userFilters/UserFilters";
-import UserProfileCard from "../../components/users/userProfileCard/UserProfileCard";
-import UsersList from "../../components/users/usersList/UsersList";
+import UserFilters from "../../components/users/userFilters/UserFilters.jsx";
+import UserProfileCard from "../../components/users/userProfileCard/UserProfileCard.jsx";
+import UsersList from "../../components/users/usersList/UsersList.jsx";
 
 const fakeUsers = [
   {

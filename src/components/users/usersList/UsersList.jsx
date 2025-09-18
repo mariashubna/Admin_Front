@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "./UsersList.module.css";
-import Pagination from "../../pagination/Pagination";
-import UserItem from "../userItem/UserItem";
+import Pagination from "../../pagination/Pagination.jsx";
+import UserItem from "../userItem/UserItem.jsx";
 
 const UsersList = ({ users, onSelect }) => {
   const [currentPage, setCurrentPage] = useState(1);

@@ -1,4 +1,4 @@
-import DashboardItem from "../dashboardItem/DashboardItem";
+import DashboardItem from "../dashboardItem/DashboardItem.jsx";
 import styles from "./DashboardList.module.css";
 
 const DashboardList = ({ stats }) => {
