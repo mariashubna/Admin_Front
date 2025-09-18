@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr; /* два графика рядом */
   gap: 20px;
+  padding-bottom: 20px;
 }
 
 .container > div {
